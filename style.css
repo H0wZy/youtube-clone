@@ -63,8 +63,8 @@ header nav {
     padding-bottom: 20px;
 }
 
-.watchvid img{
-    width: 80rem;
+.watchvid iframe{
+    /* width: 80rem; */
     border-radius: 15px;
 }
 
@@ -105,7 +105,7 @@ header nav {
 }
 .vidlike a{
   
-    padding-left: 50px;
+    padding-left: 25px;
     transition: transform .3s;
 }
 .vidlike a:hover{
@@ -135,11 +135,21 @@ header nav {
 }
 
 .sidebar{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     top: 5rem;
     right: 5rem;
+}
+
+.sidebar .videozin{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
 }
 
 footer{
