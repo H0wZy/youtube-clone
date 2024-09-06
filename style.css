@@ -14,6 +14,10 @@ header nav {
 
 .left a {
     padding: 5px;
+    transition: .3s;
+}
+.left a:hover {
+    opacity: 0.6;
 }
 
 .center {
@@ -47,9 +51,14 @@ header nav {
 
 .right a {
     padding: 5px;
+    transition: .4s;
 }
 
-.watchvid{
+.right a:hover {
+    opacity: 0.8;
+}
+
+.watchvid {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -58,17 +67,18 @@ header nav {
     align-items: self-start;
     margin-left: 60px;
 }
-.watchvid p{
+
+.watchvid p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.watchvid iframe{
+.watchvid iframe {
     /* width: 80rem; */
     border-radius: 15px;
 }
 
-.vidactions{
+.vidactions {
     display: flex;
     align-items: center;
     margin-left: 60px;
@@ -77,10 +87,21 @@ header nav {
     font-style: normal;
 }
 
-.vidactions p{
+.vidactions p {
     padding-left: 10px;
 }
-.vidactions button{
+
+.vidactions a {
+    color: #121212;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.vidactions a:hover {
+    opacity: 0.8;
+}
+
+.vidactions button {
     margin-left: 10px;
     background-color: #121212;
     border: none;
@@ -91,36 +112,38 @@ header nav {
     border-radius: 30px;
     transition: .3s;
 }
-.vidactions button:hover{
-    opacity: 0.8;
+
+.vidactions button:hover {
     cursor: pointer;
 }
 
-.vidlike{
+.vidlike {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-left: 350px;
-    
+
 }
-.vidlike a{
-  
+
+.vidlike a {
+
     padding-left: 25px;
     transition: transform .3s;
 }
-.vidlike a:hover{
-  
+
+.vidlike a:hover {
+
     opacity: 0.8;
     transform: scale(1.05);
 }
 
-.vidshare{
+.vidshare {
     display: flex;
     align-items: center;
     margin-left: 150px;
 }
 
-.videsc{
+.videsc {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -130,11 +153,12 @@ header nav {
     font-style: normal;
 }
 
-.videsc p{
+.videsc p {
     margin-top: 10px;
 }
 
-.sidebar{
+
+.sidebar {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -146,13 +170,29 @@ header nav {
     right: 5rem;
 }
 
-.sidebar .videozin{
+.sidebar .videozin {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 20px;
 }
 
-footer{
+.sidebar a {
+    text-decoration: none;
+    color: #121212;
+    transition: .4s;
+}
+
+.sidebar a:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+.infos h4,
+p {
+    margin-left: 10px;
+}
+
+footer {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -163,4 +203,15 @@ footer{
     color: white;
     margin-top: 10px;
     padding: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+footer a:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
 }
