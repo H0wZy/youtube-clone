@@ -187,6 +187,10 @@ header nav {
     transform: scale(1.01);
 }
 
+.sidebar img{
+    border-radius: 7px;
+}
+
 .infos h4,
 p {
     margin-left: 10px;
